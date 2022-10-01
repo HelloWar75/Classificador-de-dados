@@ -14,4 +14,4 @@ Estou aberto a sugestões de mais implementações!
 - Classificador de Emails
 
 ## License
-O Projeto é open-source mas está sujeito a licença ``BSD 3-Clause`` [BSD 3-Clause](LICENSE).
+O Projeto é open-source mas está sujeito a licença [BSD 3-Clause](LICENSE).
