@@ -10,6 +10,7 @@ Estou aberto a sugestões de mais implementações!
 - Validador de CPF
 - Validador de CNPJ
 - Validador de PIS
+- Validador de RENAVAM
 
 ## Futuras implementações
 - Classificador de Telefones Fixos
