@@ -1,12 +1,9 @@
-
 class CpfValidator:
 
     def __init__(self, doc):
         self.cpf = str(doc).replace('.', '').replace('-', '')
         if not self.correct_size():
             raise ValueError("CPF Size Invalid!")
-        # if not self.validate_cpf():
-        #     raise ValueError("CPF Are Invalid!")
 
     def is_valid(self) -> bool:
         try:
@@ -47,7 +44,8 @@ class CpfValidator:
         sum1 = None
         sum2 = None
 
-        if (num1 == num2) and (num3 == num4) and (num4 == num5) and (num6 == num7) and (num7 == num8) and (num8 == num9) and (num9 == num10) and (num10 == num11):
+        if (num1 == num2) and (num3 == num4) and (num4 == num5) and (num6 == num7) and (num7 == num8) and (
+                num8 == num9) and (num9 == num10) and (num10 == num11):
             raise ValueError("CPF Characters are equals!")
         else:
             sum1 = 0 if (((num1 * 10) + (num2 * 9) + (num3 * 8) + (num4 * 7) + (num5 * 6) + (num6 * 5) + (num7 * 4) + (
@@ -64,16 +62,12 @@ class CpfValidator:
             return False
 
     def format_cpf(self) -> str:
-        first_group = self.cpf[:3]
-        second_group = self.cpf[3:6]
-        third_group = self.cpf[6:9]
-        four_group = self.cpf[9:]
         return (
             "{}.{}.{}-{}".format(
-                first_group,
-                second_group,
-                third_group,
-                four_group
+                self.cpf[:3],
+                self.cpf[3:6],
+                self.cpf[6:9],
+                self.cpf[9:]
             )
         )
 
