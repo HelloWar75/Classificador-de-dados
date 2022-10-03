@@ -7,16 +7,10 @@ class CnpjValidator:
 
     def is_valid(self) -> bool:
         try:
-            if self.correct_size():
+            if self.correct_size() and self.validate_cnh():
                 return True
             else:
                 return False
-
-            if self.validate_cnpj():
-                return True
-            else:
-                return False
-
         except ValueError:
             return False
 
