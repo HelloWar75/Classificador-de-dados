@@ -13,6 +13,7 @@ Estou aberto a sugestões de mais implementações!
 - Validador de RENAVAM
 - Validador de CNH
 - Validador de NUP17
+- Validador de TITULO DE ELEITOR
 
 ## Futuras implementações
 - Classificador de Telefones Fixos
