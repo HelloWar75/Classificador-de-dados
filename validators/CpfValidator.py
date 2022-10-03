@@ -5,12 +5,11 @@ class CpfValidator:
         self.cpf = str(doc).replace('.', '').replace('-', '')
         if not self.correct_size():
             raise ValueError("CPF Size Invalid!")
-        if not self.validate_cpf():
-            raise ValueError("CPF Are Invalid!")
+        # if not self.validate_cpf():
+        #     raise ValueError("CPF Are Invalid!")
 
-    def is_valid(self):
+    def is_valid(self) -> bool:
         try:
-
             if self.correct_size():
                 return True
             else:
@@ -24,14 +23,14 @@ class CpfValidator:
         except ValueError:
             return False
 
-    def correct_size(self):
+    def correct_size(self) -> bool:
         doc = self.cpf
         if len(doc) == 11:
             return True
         else:
             return False
 
-    def validate_cpf(self):
+    def validate_cpf(self) -> bool:
         doc = self.cpf
         num1 = int(doc[0])
         num2 = int(doc[1])
@@ -64,7 +63,7 @@ class CpfValidator:
         else:
             return False
 
-    def format_cpf(self):
+    def format_cpf(self) -> str:
         first_group = self.cpf[:3]
         second_group = self.cpf[3:6]
         third_group = self.cpf[6:9]
@@ -78,5 +77,5 @@ class CpfValidator:
             )
         )
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.format_cpf()
