@@ -12,6 +12,7 @@ Estou aberto a sugestões de mais implementações!
 - Validador de PIS
 - Validador de RENAVAM
 - Validador de CNH
+- Validador de NUP17
 
 ## Futuras implementações
 - Classificador de Telefones Fixos
