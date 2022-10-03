@@ -6,9 +6,12 @@ especifico.
 
 Estou aberto a sugestões de mais implementações!
 
-## Futuras implementações
+## Implementado
 - Validador de CPF
 - Validador de CNPJ
+- Validador de PIS
+
+## Futuras implementações
 - Classificador de Telefones Fixos
 - Classificador de Telefones Móveis
 - Classificador de Emails
