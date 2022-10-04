@@ -14,6 +14,7 @@ Estou aberto a sugestões de mais implementações!
 - Validador de CNH
 - Validador de NUP17
 - Validador de TITULO DE ELEITOR
+- Validador de PROCESSOS JUDICIAIS
 
 ## Futuras implementações
 - Classificador de Telefones Fixos
