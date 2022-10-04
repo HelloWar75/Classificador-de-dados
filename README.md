@@ -15,11 +15,11 @@ Estou aberto a sugestões de mais implementações!
 - Validador de NUP17
 - Validador de TITULO DE ELEITOR
 - Validador de PROCESSOS JUDICIAIS
+- Validador de EMAILs
 
 ## Futuras implementações
 - Classificador de Telefones Fixos
 - Classificador de Telefones Móveis
-- Classificador de Emails
 
 ## License
 O Projeto é open-source mas está sujeito a licença [BSD 3-Clause](LICENSE).
