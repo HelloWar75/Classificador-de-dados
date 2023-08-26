@@ -7,7 +7,7 @@ def run():
 
     cnpj = '47.661.114/0001-46'
     vCNPJ = CnpjValidator(cnpj)
-    print(vCNPJ)
+    print(vCNPJ.is_valid())
 
 
 if __name__ == '__main__':
